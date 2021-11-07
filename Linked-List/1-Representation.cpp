@@ -6,7 +6,7 @@ struct node{
 	int data;
 	node *next;
 	
-	node(int x){          // constructure
+	node(int x){          // constructor
 		data = x;
 		next = NULL;
 	}
